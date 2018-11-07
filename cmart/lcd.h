@@ -7,8 +7,6 @@
 #include <util/delay.h>
 #include <avr/interrupt.h>
 
-
-
 void init_PORTC(void)
 {
 	DDRC = 0xFF;
